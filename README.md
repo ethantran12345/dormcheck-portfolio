@@ -51,3 +51,9 @@ The five source modules come from DormCheck's original code. The roommate matche
 | [Roommate matching tests](roommateMatch.test.ts) | Original regression cases for compatibility scoring and sparse answers. |
 
 These excerpts retain the original imports so you can trace them in the source archive, which preserves the web client's directory structure.
+
+## Try the original product walkthrough
+
+[Download the offline walkthrough](dormcheck-offline-demo.html), then open the downloaded HTML file in a browser. Choose Home, Checklist, Marketplace, or Messages to explore the original animated walkthrough, or use the feature tabs below it. The demo uses sample content and has no sign-in or live backend.
+
+[Walkthrough source and build instructions](offline-walkthrough-source.tar.gz) are available alongside the original web-client archive.
