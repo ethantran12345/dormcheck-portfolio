@@ -1,0 +1,27 @@
+{
+  "name": "dormcheck-walkthrough",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.462.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.6.1"
+  },
+  "devDependencies": {
+    "vite": "^8.2.1",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^5.9.3",
+    "tailwindcss": "^3.4.19",
+    "postcss": "^8.5.25",
+    "autoprefixer": "^10.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "@tailwindcss/typography": "^0.5.20"
+  }
+}
