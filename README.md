@@ -4,6 +4,8 @@
 
 DormCheck helped students explore housing, coordinate move-in with roommates, and buy or sell dorm gear through a campus-only marketplace. It reached **80+ student signups** across both universities. I designed and built it as a solo founder.
 
+**[Browse and run the React walkthrough source](walkthrough/README.md)** · **[Download the original web client](dormcheck-web-source.tar.gz)**
+
 ## Product screenshots
 
 These screens were captured with fictional demo data.
