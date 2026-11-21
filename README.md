@@ -40,3 +40,14 @@ The five source modules come from DormCheck's original code. The roommate matche
 ## Explore the original web app
 
 [Download the web source snapshot](dormcheck-web-source.tar.gz) to browse the React and TypeScript routes, components, styles, source tests, and Supabase client types behind the screenshots. The archive includes a tested build command and documents the services needed for signed-in features.
+
+### Browse the original implementation on GitHub
+
+| Original source | What to look for |
+| --- | --- |
+| [Checklist page](ChecklistPage.tsx) | How move-in, move-out, shared lists, and roommate groups fit into the app's checklist screen. |
+| [Checklist readiness view](ChecklistReadinessView.tsx) and [helpers](checklistHelpers.ts) | How the interface handles item states, readiness, and checklist interactions. |
+| [Product walkthrough](PhoneDemo.tsx) and [feature showcase](FeatureShowcase.tsx) | The original React components that present the app's home, checklist, marketplace, and messaging flows. |
+| [Roommate matching tests](roommateMatch.test.ts) | Original regression cases for compatibility scoring and sparse answers. |
+
+These excerpts retain the original imports so you can trace them in the source archive, which preserves the web client's directory structure.
