@@ -36,3 +36,7 @@ Clone this repo and run `node --experimental-strip-types demo.ts` with Node.js 2
 | [Demo](demo.ts) | Runs selected flows using fictional student and checklist data. |
 
 The five source modules come from DormCheck's original code. The roommate matcher uses relative imports here so it can run outside the original app. The full UI, backend, and deployment configuration are outside this showcase.
+
+## Explore the original web app
+
+[Download the web source snapshot](dormcheck-web-source.tar.gz) to browse the React and TypeScript routes, components, styles, source tests, and Supabase client types behind the screenshots. The archive includes a tested build command and documents the services needed for signed-in features.
