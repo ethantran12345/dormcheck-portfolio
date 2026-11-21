@@ -6,6 +6,15 @@ DormCheck helped students explore housing, coordinate move-in with roommates, an
 
 **[Browse and run the React walkthrough source](walkthrough/README.md)** · **[Download the original web client](dormcheck-web-source.tar.gz)**
 
+## Browse the source tree
+
+- [src/lib](src/lib) — roommate matching, campus maps, housing, marketplace and messaging helpers, with unit tests.
+- [src/components/checklist](src/components/checklist) — original move-in, move-out, and checklist readiness screens and tests.
+- [src/components/ui](src/components/ui) — shared React components for forms, dialogs, navigation, and feedback.
+- [docs](docs), [e2e](e2e), [ios](ios), and [android](android) — design notes, a Playwright regression test, and native integration excerpts.
+
+These files preserve the original source paths and imports. Use the web-client archive for the broader dependency tree, or use the walkthrough directory for a standalone build.
+
 ## Product screenshots
 
 These screens were captured with fictional demo data.
